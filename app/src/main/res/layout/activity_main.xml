@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clipboardactivity1"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="423dp"
+        android:hint="Enter text"
+        android:text=""
+        android:textColor="#231F1F"
+        android:textColorHint="#8F8686"
+        android:theme="@android:style/Theme.Black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="360dp"
+        android:hint="Paste here"
+        android:text=""
+        android:textColor="#231F1F"
+        android:textColorHint="#8F8686"
+        android:theme="@android:style/Theme.Black" />
+
+    <Button
+        android:id="@+id/copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="238dp"
+        android:layout_marginBottom="304dp"
+        android:backgroundTint="#7E7878"
+        android:text="Copy" />
+
+    <Button
+        android:id="@+id/cut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="304dp"
+        android:backgroundTint="#7E7878"
+        android:text="Cut" />
+
+    <Button
+        android:id="@+id/paste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="248dp"
+        android:backgroundTint="#7E7878"
+        android:text="Paste" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="196dp"
+        android:backgroundTint="#7E7878"
+        android:text="Clear" />
+
+
+</RelativeLayout>

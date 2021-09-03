@@ -1,0 +1,2 @@
+rootProject.name = "ClipboardActivity"
+include ':app'
